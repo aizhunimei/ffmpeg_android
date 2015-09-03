@@ -23,11 +23,11 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
 	
 	private String TAG = "MainActivity";
 
-	private String RTMP_URL = "rtmp://192.168.1.115/live/livestream";
+//	private String RTMP_URL = "rtmp://192.168.1.115/live/livestream";
+	
+	private String RTMP_URL = "http://113.116.61.239:65003/live/livestream.m3u8";
 
 	private SurfaceView mSurfaceView;
-	
-	
 	
 	
 	
